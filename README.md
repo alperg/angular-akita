@@ -1,6 +1,13 @@
 # angular-akita
 Sample Angular App with Akita State Manager
 
+As a best practice, Akita recommends separating the Domain State from the UI State. Domain State is the state of your application in the server side, while the UI State is information that’s relevant to the UI alone, and therefore not stored in the server.
+
+Some examples of UI States: 
+* The current time based on the user’s machine
+* Which tab is the active one
+* If a drop-down is open
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Development server
